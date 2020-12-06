@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:newAngularAppCli": "ng build newAngularAppCli --prod --deploy-url http://localhost:4200/",
-    "serve:single-spa:newAngularAppCli": "ng s --project newAngularAppCli --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false"
+    "build:single-spa:newAngularAppCli": "ng build newAngularAppCli --prod --deploy-url http://localhost:4300/",
+    "serve:single-spa:newAngularAppCli": "ng s --project newAngularAppCli --disable-host-check --port 4300 --deploy-url http://localhost:4300/ --live-reload false"
   },
   "private": true,
   "dependencies": {
@@ -32,9 +32,9 @@
     "@angular-devkit/build-angular": "~0.901.11",
     "@angular/cli": "~9.1.11",
     "@angular/compiler-cli": "~9.1.12",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
