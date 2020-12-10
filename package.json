@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:newAngularAppCli": "ng build newAngularAppCli --prod --deploy-url http://localhost:4300/",
-    "serve:single-spa:newAngularAppCli": "ng s --project newAngularAppCli --disable-host-check --port 4300 --deploy-url http://localhost:4300/ --live-reload false"
+    "build:single-spa:newAngularAppCli": "ng build newAngularAppCli --prod --deploy-url http://localhost:4400/",
+    "serve:single-spa:newAngularAppCli": "ng s --project newAngularAppCli --disable-host-check --port 4400 --deploy-url http://localhost:4300/ --live-reload false"
   },
   "private": true,
   "dependencies": {
